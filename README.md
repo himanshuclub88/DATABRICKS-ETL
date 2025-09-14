@@ -124,6 +124,8 @@ This pipeline serves for building production ETL workflows on Databricks.
 
 ---
 
+![Pipeline](PIPELINE.png "PIPELINE")
+
 **Built with:** Databricks • Apache Spark • Delta Lake • Unity Catalog • SQL
 
 
