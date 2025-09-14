@@ -86,14 +86,6 @@ This project showcases a production-ready ETL pipeline built on Databricks that:
 - **Data Lake Architecture:** Modern lakehouse implementation
 - **Governance:** Secure and compliant data processing
 
-## ⚡ Quick Start
-
-1. **Setup:** Configure Unity Catalog Volume with source data
-2. **Deploy:** Upload notebooks to Databricks workspace
-3. **Schedule:** Create Databricks Job with pipeline tasks
-4. **Monitor:** View execution through Jobs & Pipelines UI
-5. **Query:** Access Delta tables via SQL for reporting
-
 ## 📊 Performance Metrics
 
 - **Throughput:** Handles large datasets efficiently
@@ -120,9 +112,17 @@ The pipeline includes comprehensive monitoring through:
 - Documentation complete
 
 ## 🤝 Contributing
+### ⚡ Quick Start
 
-This pipeline serves as a template for building production ETL workflows on Databricks. Extend and customize based on your specific data requirements.
+1. **Setup:** Configure Unity Catalog Volume with source data
+2. **Deploy:** Upload notebooks to Databricks workspace
+3. **Schedule:** Create Databricks Job with pipeline tasks
+4. **Monitor:** View execution through Jobs & Pipelines UI
+5. **Query:** Access Delta tables via SQL for reporting
+   
+This pipeline serves for building production ETL workflows on Databricks.
 
 ---
 
 **Built with:** Databricks • Apache Spark • Delta Lake • Unity Catalog • SQL
+
