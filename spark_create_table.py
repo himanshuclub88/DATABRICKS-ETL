@@ -56,10 +56,13 @@ print("\nRow count:", df.count())
 # Save DataFrame as a Delta table
 table_name = "sales_data"
 catalog_name = "workspace"  
-schema_name = "development"
+schema_name = "sales"
 
 # Create the full table name
 full_table_name = f"{catalog_name}.{schema_name}.{table_name}"
+
+# Create schema if not exists
+spark.sql(f"CREATE SCHEMA IF NOT EXISTS {catalog_name}.{schema_name}")
 
 # Write DataFrame as Delta table
 df.write \
